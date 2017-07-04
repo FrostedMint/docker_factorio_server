@@ -1,8 +1,12 @@
-# Factorio [![](https://images.microbadger.com/badges/image/dtandersen/factorio.svg)](https://microbadger.com/images/dtandersen/factorio "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/dtandersen/factorio.svg)](https://hub.docker.com/r/dtandersen/factorio/) [![Docker Stars](https://img.shields.io/docker/stars/dtandersen/factorio.svg)](https://hub.docker.com/r/dtandersen/factorio/)
+This is a fork of dtandersen's [Docker Factorio Server](https://github.com/dtandersen/docker_facvtorio_server), with some modifications made by [emichael](https://github.com/dtandersen/docker_factorio_server/pull/47). All credit goes to them, and the original list of contributors, listed at the bottom of this document. The original README.md (with updated links) follows.
 
-* `0.15.27`, `0.15`, `latest` [(0.15/Dockerfile)](https://github.com/dtandersen/docker_factorio_server/blob/master/0.15/Dockerfile)
-* `0.14.23`, `0.14`, `stable` [(0.14/Dockerfile)](https://github.com/dtandersen/docker_factorio_server/blob/master/0.14/Dockerfile)
-* `0.13.20`, `0.13`  [(0.13/Dockerfile)](https://github.com/dtandersen/docker_factorio_server/blob/master/0.13/Dockerfile)
+---
+
+# Factorio [![](https://images.microbadger.com/badges/image/frostedmint/factorio.svg)](https://microbadger.com/images/frostedmint/factorio "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/frostedmint/factorio.svg)](https://hub.docker.com/r/frostedmint/factorio/) [![Docker Stars](https://img.shields.io/docker/stars/frostedmint/factorio.svg)](https://hub.docker.com/r/frostedmint/factorio/)
+
+* `0.15.27`, `0.15`, `latest` [(0.15/Dockerfile)](https://github.com/frostedmint/docker_factorio_server/blob/master/0.15/Dockerfile)
+* `0.14.23`, `0.14`, `stable` [(0.14/Dockerfile)](https://github.com/frostedmint/docker_factorio_server/blob/master/0.14/Dockerfile)
+* `0.13.20`, `0.13`  [(0.13/Dockerfile)](https://github.com/frostedmint/docker_factorio_server/blob/master/0.13/Dockerfile)
 
 *Tag descriptions*
 
@@ -35,7 +39,7 @@ docker run -d -p 34197:34197/udp -p 27015:27015/tcp \
   -v /tmp/factorio:/factorio \
   --name factorio \
   --restart=always  \
-  dtandersen/factorio
+  frostedmint/factorio
 ```
 
 For those new to Docker, here is an explanation of the options:
@@ -73,7 +77,7 @@ To issue console commands to the server, start the server in interactive mode wi
 
 	docker run -d -it  \
         --name factorio \
-        dtandersen/factorio
+        frostedmint/factorio
 	docker attach factorio
 
 
@@ -87,7 +91,7 @@ Delete the container and refresh the image:
 
 	docker stop factorio
 	docker rm factorio
-	docker pull dtandersen/factorio
+	docker pull frostedmint/factorio
 
 Now run the server as before. In about a minute the new version of Factorio should be up and running, complete with saves and config!
 
