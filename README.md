@@ -1,21 +1,14 @@
-This is a fork of dtandersen's [Docker Factorio Server](https://github.com/dtandersen/docker_facvtorio_server), with some modifications made by [emichael](https://github.com/dtandersen/docker_factorio_server/pull/47). All credit goes to them, and the original list of contributors, listed at the bottom of this document. The original README.md (with updated links) follows.
+:warning: This is a fork of dtandersen's [Docker Factorio Server](https://github.com/dtandersen/docker_facvtorio_server), with some modifications made by [emichael](https://github.com/dtandersen/docker_factorio_server/pull/47). All credit goes to them, and the original list of contributors, listed at the bottom of this document. The original README.md (with links updated and docker tags removed) follows.
 
 ---
 
 # Factorio [![](https://images.microbadger.com/badges/image/frostedmint/factorio.svg)](https://microbadger.com/images/frostedmint/factorio "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/frostedmint/factorio.svg)](https://hub.docker.com/r/frostedmint/factorio/) [![Docker Stars](https://img.shields.io/docker/stars/frostedmint/factorio.svg)](https://hub.docker.com/r/frostedmint/factorio/)
 
-* `0.15.27`, `0.15`, `latest` [(0.15/Dockerfile)](https://github.com/frostedmint/docker_factorio_server/blob/master/0.15/Dockerfile)
-* `0.14.23`, `0.14`, `stable` [(0.14/Dockerfile)](https://github.com/frostedmint/docker_factorio_server/blob/master/0.14/Dockerfile)
-* `0.13.20`, `0.13`  [(0.13/Dockerfile)](https://github.com/frostedmint/docker_factorio_server/blob/master/0.13/Dockerfile)
+* `latest` [(0.15/Dockerfile)](https://github.com/frostedmint/docker_factorio_server/blob/master/0.15/Dockerfile)
 
 *Tag descriptions*
 
 * `latest` - highest version: may be experimental.
-* `stable` - highest version declared stable.
-* `0.x` - highest version in a branch: may be experimental.
-* `0.x.y` - a specific version.
-* `0.x-dev` - whatever is in master for that version.
-
 
 # What is Factorio?
 
